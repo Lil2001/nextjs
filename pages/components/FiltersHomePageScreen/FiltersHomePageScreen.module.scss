@@ -1,0 +1,69 @@
+.filtersContainer {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__dropdown {
+        width: 300px;
+        padding: 10px 20px 10px 20px;
+        border: 1px solid #dddddd;
+        border-radius: 20px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+
+        &.dropdown {
+
+            width: 100%;
+            position:absolute;
+            top:0;
+            left: 0;
+            height: 100px;
+        }
+
+
+        >p {
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #222222;
+        }
+
+        &__valueText {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            >p {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 16px;
+                color: #222222;
+                margin-right: 20px;
+            }
+
+            .select {
+                border: none;
+            }
+        }
+
+        &dropDown {
+            width: 100%;
+            height: 40px;
+            background-color: aqua;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+
+}
